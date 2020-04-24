@@ -52,21 +52,6 @@ CREATE TABLE IF NOT EXISTS `ordereffects` (
 
 -- --------------------------------------------------------
 
---
--- Table structure for table `owner`
---
-
-DROP TABLE IF EXISTS `owner`;
-CREATE TABLE IF NOT EXISTS `owner` (
-  `ID` int(11) NOT NULL,
-  `name` varchar(50) NOT NULL,
-  `Password` char(255) NOT NULL,
-  `DateRegistered` datetime NOT NULL DEFAULT current_timestamp()
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
--- --------------------------------------------------------
-
---
 -- Table structure for table `product`
 --
 
